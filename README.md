@@ -10,6 +10,7 @@ In order to properly run the file "run_analysis.R" from R or R Studio, you must 
 The data set contains sensor signals collected from 30 subjects in one of two conditions, test, and train, while they did the following activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying.
 
 For more detail on the dataset itself, please refer to the README.txt file found in the folder after downloading. 
+For detail on the final dataset, please refer to "Code Book.md" in this repository.
 
 The Script provided here, entitled "run_analysis.R" does the following:
 
