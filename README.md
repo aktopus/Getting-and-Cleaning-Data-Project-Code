@@ -12,17 +12,17 @@ The data set contains sensor signals collected from 30 subjects in one of two co
 For more detail on the dataset itself, please refer to the README.txt file found in the folder after downloading. 
 
 The Script provided here, entitled "run_analysis.R" does the following:
-1. Combines the data found in six files from the folder "UCI HAR Dataset": 
-  a. "./train/X_train.txt"
-  b. "./train/subject_train.txt"
-  c."./train/y_train.txt"
-  d. "./test/X_test.txt"
-  e. "./test/subject_test.txt"
-  f."./test/y_test.txt"
-2. From the resultant dataframe, it adds the proper column names, and preserves only those columns that contain a mean or standard deviation of given measurements
-3. Turns values for "activity" from a numerical value to its proper name, i.e. changing "1" to "WALKING"
-4. Finds the mean for every combination of "subject," "activity," and "measurement."
-5. Creates a tidy data file containing the data in step #4, as well as the initial data frame from step #3
+## 1. Combines the data found in six files from the folder "UCI HAR Dataset": 
+###  a. "./train/X_train.txt"
+###  b. "./train/subject_train.txt"
+###    c."./train/y_train.txt"
+###    d. "./test/X_test.txt"
+#    e. "./test/subject_test.txt"
+###    f."./test/y_test.txt"
+## 2. From the resultant dataframe, it adds the proper column names, and preserves only those columns that contain a mean or standard deviation of given measurements
+## 3. Turns values for "activity" from a numerical value to its proper name, i.e. changing "1" to "WALKING"
+## 4. Finds the mean for every combination of "subject," "activity," and "measurement."
+## 5. Creates a tidy data file containing the data in step #4, as well as the initial data frame from step #3
 These files are placed in a folder called "Output" within the working directory, and are CSV files with titles: 
 "Merged Data Set.csv" and "Tidy Data Set - AverageBySubjectAndActivity.csv"
 
