@@ -12,19 +12,8 @@ The data set contains sensor signals collected from 30 subjects in one of two co
 For more detail on the dataset itself, please refer to the README.txt file found in the folder after downloading. 
 
 The Script provided here, entitled "run_analysis.R" does the following:
-1. Combines the data found in six files from the folder "UCI HAR Dataset": 
 
-a. "./train/X_train.txt"
-
-b. "./train/subject_train.txt"
-
-c."./train/y_train.txt"
-
-d. "./test/X_test.txt"
-
-e. "./test/subject_test.txt"
-
-f."./test/y_test.txt"
+1. Combines the data found in six files from the folder "UCI HAR Dataset": a. "./train/X_train.txt" b. "./train/subject_train.txt" c."./train/y_train.txt" d. "./test/X_test.txt" e. "./test/subject_test.txt" f."./test/y_test.txt"
 
 
 
