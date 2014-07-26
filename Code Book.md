@@ -2,7 +2,7 @@ A description of the variables found in the tidy data set.
 
 ===========================================================
 
-1. The "input" variables:
+#The "input" variables:
 
 Columns 1 and 2 specify the subject and activity that provided the mean for each measurement found in columns 3 to 80.
 Columns 3-80 are titled for the standard deviation and the mean for each type of measurement taken from the wearable devices that the subjects used.
@@ -92,7 +92,7 @@ And the measurements are titled:
 
 In the above, std stands for "standard deviation," "mean" corresponds to "mean value," and each measurement was taken from accelerometers and gyoscope signals that were processed. Details on how these measurements were created can be found in features_info.txt in the UCI HAR Dataset. 
 
-2. The output variables:
+#The output variables:
 
 For each combination of subject, activity, and measurement, the user can see the mean. 
 For example, if the user went to row 58, he or she would see all of the means for subject #28 in the "sitting" condition,
