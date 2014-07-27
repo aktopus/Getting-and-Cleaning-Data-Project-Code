@@ -63,5 +63,5 @@ A more detailed, description of the code:
 
 10. Prints two files, "Merged Data Set.csv" and "Tidy Data Set - AverageBySubjectAndActivity.csv", the latter of which contains the data set that completes the assignment.
 
-Further detail may be found in the code itself.
+Further detail may be found in the comments for the code itself.
 
