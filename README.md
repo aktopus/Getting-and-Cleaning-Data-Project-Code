@@ -7,7 +7,7 @@ Summary: Provides R Script for Analyzing "UCI HAR Dataset"
 
 In order to properly run the file "run_analysis.R" from R or R Studio, you must set your working directory to "~/UCI HAR Dataset/," whcih should contain the unzipped data acquired from the following URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The data set contains sensor signals collected from 30 subjects in one of two conditions, test, and train, while they did the following activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying.
+The data set contains sensor signals collected from 30 subjects while they did the following activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying. 9 subjects were selected to generate the data placed in "train" and 21 subjects were selected for "test."
 
 For more detail on the dataset itself, please refer to the README.txt file found in the folder after downloading. 
 For detail on the final dataset, please refer to "Code Book.md" in this repository.
@@ -63,5 +63,9 @@ A more detailed, description of the code:
 
 10. Prints two files, "Merged Data Set.csv" and "Tidy Data Set - AverageBySubjectAndActivity.csv", the latter of which contains the data set that completes the assignment.
 
-Further detail may be found in the comments for the code itself.
+Further detail may be found in the comments for the code itself, and more information on the data can be found at 
+https://github.com/aktopus/Getting-and-Cleaning-Data-Project-Code/blob/master/Code%20Book.md
+
+#Dataset Citation:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
 
