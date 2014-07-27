@@ -1,4 +1,4 @@
-dataSetMerge<-function(){
+run_analysis<-function(){
   #NOTE: PLEASE SET YOUR WORKING DIRECTORY TO THE FOLDER "UCI HAR Dataset" -- setwd("UCI HAR Dataset")
   
 #DATASET 1 ORGANIZATION
