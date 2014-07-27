@@ -96,4 +96,7 @@ In the above, std stands for "standard deviation," "mean" corresponds to "mean v
 
 For each combination of subject, activity, and measurement, the user can see the mean. 
 For example, if the user went to row 58, he or she would see all of the means for subject #28 in the "sitting" condition,
-for all 78 measurements.
+for all 78 measurements. These values are normalized and bounded within [-1,1].
+
+#Dataset Citation:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
